@@ -3,7 +3,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route('/hello', methods=['GET'])
-def hello():
+def helloabhi():
     return 'hello abhi'
 
 @app.route('/', methods=['GET'])
